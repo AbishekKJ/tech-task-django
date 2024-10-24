@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "accounts",
+    "django_filters",
 ]
 
 MIDDLEWARE = [
@@ -133,4 +134,53 @@ REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
     ],
+}
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
+        'json': {
+            '()': 'pythonjsonlogger.jsonlogger.JsonFormatter',  # For structured JSON logging
+            'format': '%(asctime)s %(levelname)s %(message)s',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': r'service/logs/info.log',  # Path to the log file
+            'formatter': 'verbose',
+        },
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple',
+        },
+        'json_file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': r'service/logs/info.json',  # JSON log output
+            'formatter': 'json',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file', 'console'],  # Send logs to both file and console
+            'level': 'INFO',
+            'propagate': True,
+        },
+        '': {
+            'handlers': ['json_file'],  # Logs to JSON files for centralized logging systems
+            'level': 'INFO',
+            'propagate': False,
+        },
+    },
 }
