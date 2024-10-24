@@ -1,11 +1,23 @@
 from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from django.utils import timezone
+from datetime import timedelta
 
 
 class Account(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     name = models.CharField(max_length=100, help_text="The name of the account owner")
+
+    def transaction_count_last_thirty_days(self):
+        thirty_days_ago = timezone.now() - timedelta(days=30)
+        return self.transaction_set.filter(timestamp__gte=thirty_days_ago).count()
+
+    def balance_change_last_thirty_days(self):
+        thirty_days_ago = timezone.now() - timedelta(days=30)
+        return self.transaction_set.filter(timestamp__gte=thirty_days_ago).aggregate(
+            balance_change=models.Sum('amount')
+        )['balance_change'] or 0
 
 
 class TransactionCategory(models.TextChoices):
