@@ -1,0 +1,111 @@
+INFO 2024-10-25 00:48:58,338 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 00:49:02,257 basehttp "GET /api/transactions/ HTTP/1.1" 200 13053
+INFO 2024-10-25 00:49:02,273 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,276 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,281 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,282 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,282 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,282 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,284 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,286 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,286 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,288 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:02,288 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:08,401 basehttp "GET /api/transactions/419/ HTTP/1.1" 200 6373
+INFO 2024-10-25 00:49:08,454 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:15,680 basehttp "GET /api/transactions/?transaction_category=CASH HTTP/1.1" 200 9193
+INFO 2024-10-25 00:49:15,714 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+INFO 2024-10-25 00:49:20,870 basehttp "GET /api/transactions/?transaction_category=PURCHASE HTTP/1.1" 200 13381
+INFO 2024-10-25 00:51:33,372 autoreload D:\Personal stuff- Dont open\tech-task-django\service\settings.py changed, reloading.
+INFO 2024-10-25 00:51:35,782 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 00:51:53,905 basehttp "GET /api/transactions/?transaction_category=PURCHASE HTTP/1.1" 200 13381
+INFO 2024-10-25 00:51:53,932 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,934 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,936 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,937 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,937 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,941 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,941 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,943 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,944 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,946 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,947 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,951 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:53,951 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+INFO 2024-10-25 00:51:58,070 basehttp "POST /api-auth/logout/?next=/api/transactions/ HTTP/1.1" 302 0
+WARNING 2024-10-25 00:51:58,082 log Forbidden: /api/transactions/
+WARNING 2024-10-25 00:51:58,083 basehttp "GET /api/transactions/ HTTP/1.1" 403 5066
+INFO 2024-10-25 00:52:00,122 basehttp "GET /api-auth/login/?next=/api/transactions/ HTTP/1.1" 200 2718
+INFO 2024-10-25 00:52:08,355 basehttp "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2024-10-25 00:52:08,450 basehttp "GET /api/transactions/ HTTP/1.1" 200 13031
+WARNING 2024-10-25 01:01:45,959 log Forbidden: /api/transactions/419/
+WARNING 2024-10-25 01:01:45,960 basehttp "GET /api/transactions/419/ HTTP/1.1" 403 6041
+WARNING 2024-10-25 01:01:47,020 log Forbidden: /api/transactions/419/
+WARNING 2024-10-25 01:01:47,021 basehttp "GET /api/transactions/419/ HTTP/1.1" 403 6041
+INFO 2024-10-25 01:01:47,037 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,042 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,042 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,045 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,049 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,049 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,050 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,054 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,056 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,056 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,058 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:47,058 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-10-25 01:01:52,028 basehttp "GET /api/transactions/280/ HTTP/1.1" 200 6360
+INFO 2024-10-25 01:01:56,314 basehttp "GET /api/transactions/300/ HTTP/1.1" 200 6368
+WARNING 2024-10-25 01:02:00,591 log Forbidden: /api/transactions/310/
+WARNING 2024-10-25 01:02:00,592 basehttp "GET /api/transactions/310/ HTTP/1.1" 403 6041
+INFO 2024-10-25 01:02:07,996 basehttp "GET /api/transactions/ HTTP/1.1" 200 13031
+INFO 2024-10-25 01:02:08,140 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+INFO 2024-10-25 01:02:11,882 basehttp "GET /api/accounts/ HTTP/1.1" 200 6485
+INFO 2024-10-25 01:02:16,232 basehttp "GET /api/accounts/1/ HTTP/1.1" 200 6214
+INFO 2024-10-25 01:02:19,758 basehttp "GET /api/accounts/2/ HTTP/1.1" 200 6216
+WARNING 2024-10-25 01:02:24,416 log Forbidden: /api/accounts/3/
+WARNING 2024-10-25 01:02:24,417 basehttp "GET /api/accounts/3/ HTTP/1.1" 403 5959
+WARNING 2024-10-25 01:02:24,986 log Forbidden: /api/accounts/3/
+WARNING 2024-10-25 01:02:24,987 basehttp "GET /api/accounts/3/ HTTP/1.1" 403 5959
+INFO 2024-10-25 01:02:28,390 basehttp "POST /api-auth/logout/?next=/api/accounts/3/ HTTP/1.1" 302 0
+WARNING 2024-10-25 01:02:28,396 log Forbidden: /api/accounts/3/
+WARNING 2024-10-25 01:02:28,396 basehttp "GET /api/accounts/3/ HTTP/1.1" 403 5164
+INFO 2024-10-25 01:02:33,345 basehttp "GET /api-auth/login/?next=/api/accounts/3/ HTTP/1.1" 200 2716
+INFO 2024-10-25 01:02:42,155 basehttp "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2024-10-25 01:02:42,169 basehttp "GET /api/accounts/3/ HTTP/1.1" 200 6217
+INFO 2024-10-25 01:02:52,142 basehttp "GET /api/accounts/ HTTP/1.1" 200 6761
+INFO 2024-10-25 01:03:01,717 basehttp "GET /api/accounts/ HTTP/1.1" 200 6761
+INFO 2024-10-25 01:03:06,040 basehttp "GET /api/transactions/?transaction_category=CASH HTTP/1.1" 200 9193
+INFO 2024-10-25 01:04:33,445 basehttp "GET /api/transactions/ HTTP/1.1" 200 13053
+INFO 2024-10-25 01:04:33,464 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,469 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,470 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,473 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,474 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,477 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,478 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,480 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,482 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,482 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:04:33,483 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:05:21,220 basehttp "GET /api/transactions/?start=2022-06-05&end=2022-06-17 HTTP/1.1" 200 13479
+INFO 2024-10-25 01:05:47,804 basehttp "GET /api/transactions/?start=2022-06-18&end=2022-06-20 HTTP/1.1" 200 9301
+INFO 2024-10-25 01:05:58,581 basehttp "GET /api/transactions/?start=2022-06-18&end=2022-06-17 HTTP/1.1" 200 9301
+INFO 2024-10-25 01:06:07,636 basehttp "GET /api/transactions/?start=2022-06-18&end=2022-06-18 HTTP/1.1" 200 9301
+INFO 2024-10-25 01:06:17,814 basehttp "GET /api/transactions/?start=2022-06-17&end=2022-06-17 HTTP/1.1" 200 9301
+INFO 2024-10-25 01:06:23,306 basehttp "GET /api/transactions/?start=2022-06-14&end=2022-06-17 HTTP/1.1" 200 9652
+INFO 2024-10-25 01:06:34,926 basehttp "GET /api/transactions/?start=2022-06-12&end=2022-06-17 HTTP/1.1" 200 13479
+INFO 2024-10-25 01:06:58,998 basehttp "POST /api-auth/logout/?next=/api/transactions/ HTTP/1.1" 302 0
+WARNING 2024-10-25 01:06:59,016 log Forbidden: /api/transactions/
+WARNING 2024-10-25 01:06:59,017 basehttp "GET /api/transactions/ HTTP/1.1" 403 5066
+INFO 2024-10-25 01:06:59,039 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,045 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,045 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,046 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,047 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,047 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,048 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,053 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,054 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,054 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-25 01:06:59,054 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
